@@ -1123,11 +1123,16 @@ export const augustBlogHtml = String.raw`
     </div>
   </div>
 
-  <section class="previous-topic">
-    <h4>Revisit a Previous Music Topic</h4>
+<section class="previous-topic">
+  <h4>Revisit a Previous Music Topic</h4>
 
-    <a class="previous-topic-card" href="/topics-july">
-      <div class="previous-topic-thumb">
+  <a
+    class="previous-topic-card"
+    href="https://nonamemusik.com/topics_july"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <div class="previous-topic-thumb">
         <img
           src="https://santvisionfilms.site/Images/Topics/july_topics/1_july_right_sound_hero.webp"
           alt="July Music Topics article about musicians and AI"
