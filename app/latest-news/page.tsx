@@ -12,7 +12,7 @@ function decodeHtmlEntities(text: string) {
     )
     .replace(/&amp;/g, "&")
     .replace(/&quot;/g, '"')
-    .replace(/&apos;/g, "'")
+    .replace(/&#39;/g, "'")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">");
 }
@@ -50,6 +50,7 @@ export default async function LatestNewsPage() {
             url("https://santvisionfilms.site/Images/Topics/Aug_muziktopics/News.webp");
           background-size: cover;
           background-position: center;
+          background-repeat: no-repeat;
           box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
         }
 
@@ -115,7 +116,7 @@ export default async function LatestNewsPage() {
         }
 
         .music-news-card h2 a:hover {
-          color: #7B2CBF;
+          color: #7b2cbf;
         }
 
         .music-news-date {
@@ -134,7 +135,7 @@ export default async function LatestNewsPage() {
         .music-news-link {
           display: inline-block;
           margin-top: 2px;
-          color: #7B2CBF;
+          color: #7b2cbf;
           font-weight: 700;
           font-size: 0.94rem;
           text-decoration: none;
@@ -166,9 +167,13 @@ export default async function LatestNewsPage() {
           }
 
           .music-news-hero {
-            min-height: 310px;
+            min-height: 0;
+            aspect-ratio: 16 / 9;
             border-radius: 14px;
+            background-size: contain;
             background-position: center;
+            background-repeat: no-repeat;
+            background-color: #000;
           }
 
           .music-news-content {
