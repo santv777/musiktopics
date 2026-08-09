@@ -1126,22 +1126,22 @@ export const augustBlogHtml = String.raw`
   <section class="previous-topic">
     <h4>Revisit a Previous Music Topic</h4>
 
-    <a class="previous-topic-card" href="/topics-june">
+    <a class="previous-topic-card" href="/topics-july">
       <div class="previous-topic-thumb">
         <img
-          src="https://nnmus.b-cdn.net/Images/Topics/Jun_topics/elephant_Nroom.webp"
-          alt="June Music Topics article about musicians and AI"
+          src="https://santvisionfilms.site/Images/Topics/july_topics/1_july_right_sound_hero.webp"
+          alt="July Music Topics article about musicians and AI"
           loading="lazy">
       </div>
 
       <div class="previous-topic-copy">
-        <p class="previous-topic-kicker">From the Archive · June</p>
+        <p class="previous-topic-kicker">From the Archive · July</p>
 
-        <h5>The Controversial Subject: Who’s Making the Music?</h5>
+        <h5>The Subject: The Right Sound Tells the Right Story</h5>
 
         <p>
-          Revisit the June Music Topic about musicians, AI, creativity, and
-          finding balance between technology and the human gift.
+          Revisit the July Music Topic about the importance of choosing
+          the right sound for a movie scene.
         </p>
 
         <span class="previous-topic-link">

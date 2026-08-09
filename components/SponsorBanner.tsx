@@ -39,16 +39,13 @@ export default function SponsorBanner() {
           );
         }
 
-        const data: SponsorManifest =
-          await response.json();
+        const data: SponsorManifest = await response.json();
 
         if (cancelled) {
           return;
         }
 
-        const availableAds = Array.isArray(
-          data.topBannerAds
-        )
+        const availableAds = Array.isArray(data.topBannerAds)
           ? data.topBannerAds
           : [];
 
@@ -107,10 +104,7 @@ export default function SponsorBanner() {
   const currentAd = ads[currentIndex];
 
   return (
-    <aside
-      className="sponsor-banner"
-      aria-label="Sponsored content"
-    >
+    <aside className="sponsor-banner" aria-label="Sponsor">
       <div className="sponsor-banner-inner">
         <span className="sponsor-banner-label">
           Sponsor
@@ -138,11 +132,12 @@ export default function SponsorBanner() {
           width: 100%;
           padding: 18px 20px 8px;
           background: #ffffff;
+          box-sizing: border-box;
         }
 
         .sponsor-banner-inner {
           width: 100%;
-          max-width: 980px;
+          max-width: 760px;
           margin: 0 auto;
         }
 
@@ -185,6 +180,10 @@ export default function SponsorBanner() {
         @media (max-width: 760px) {
           .sponsor-banner {
             padding: 14px 12px 6px;
+          }
+
+          .sponsor-banner-inner {
+            max-width: none;
           }
 
           .sponsor-banner-label {

@@ -19,7 +19,7 @@ export default function SiteHeader() {
       }}
     >
       <div className="site-header-inner">
-        <Link href="/" onClick={closeMenu} className="site-brand">
+        <Link href="/" className="site-brand" onClick={closeMenu}>
           MusikTopics
         </Link>
 
@@ -145,10 +145,11 @@ export default function SiteHeader() {
             display: none;
             width: 100%;
             flex-direction: column;
-            align-items: flex-start;
-            gap: 0;
-            margin-top: 18px;
-            padding-top: 16px;
+            align-items: stretch;
+            gap: 12px;
+            margin-top: 22px;
+            padding-top: 20px;
+            padding-bottom: 8px;
             border-top: 1px solid rgba(255, 255, 255, 0.12);
           }
 
@@ -157,9 +158,15 @@ export default function SiteHeader() {
           }
 
           .site-nav a {
+            display: flex;
+            align-items: center;
             width: 100%;
-            padding: 14px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            min-height: 68px;
+            padding: 20px 8px;
+            line-height: 1.4;
+            font-size: 1.08rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            box-sizing: border-box;
           }
         }
       `}</style>

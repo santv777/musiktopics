@@ -1,12 +1,21 @@
 import type { Metadata } from "next";
+
 import "./globals.css";
+
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "MusikTopics",
+
   description:
     "Music-focused articles, creative perspectives, industry developments, technology, and the experiences surrounding the process of creating and sharing music.",
+
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -18,7 +27,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <SiteHeader />
+
         {children}
+
         <SiteFooter />
       </body>
     </html>
