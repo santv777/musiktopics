@@ -421,13 +421,6 @@ export const augustBlogHtml = String.raw`
       Confidence While Fear Is Present
     </h1>
 
-    <p class="topic-subtitle">
-      Confidence does not require the absence of fear. It is the willingness
-      to continue creating, performing, and releasing music while fear is
-      still present.
-    </p>
-  </header>
-
   <figure class="topic-image">
     <img
       class="article-image wide"
@@ -440,6 +433,15 @@ export const augustBlogHtml = String.raw`
       Confidence is not waiting for fear to disappear before moving forward.
     </figcaption>
   </figure>
+
+    <p class="topic-subtitle">
+      Confidence does not require the absence of fear. It is the willingness
+      to continue creating, performing, and releasing music while fear is
+      still present.
+    </p>
+  </header>
+
+
 
   <p>
     Musical confidence is not waiting for outward validation or support before
