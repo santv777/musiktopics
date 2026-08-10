@@ -674,61 +674,6 @@ export const augustBlogHtml = String.raw`
     give it an opportunity to be heard.
   </p>
 
-  <h2>Confidence During Live Performance</h2>
-
-  <p>
-    Live performance can bring fear into its most visible form.
-  </p>
-
-  <p>
-    The performer may think:
-  </p>
-
-  <div class="thought-list">
-    <ul>
-      <li>“I do not sound as good as someone else.”</li>
-      <li>“Why am I wasting my time?”</li>
-      <li>“I do not have what it takes.”</li>
-      <li>“Why should I bother?”</li>
-      <li>“I keep making mistakes.”</li>
-      <li>“What if I forget something?”</li>
-      <li>“What if the audience does not respond?”</li>
-    </ul>
-  </div>
-
-  <p>
-    A strong performance mindset is not necessarily:
-  </p>
-
-  <div class="pull-quote">
-    “Nothing will go wrong.”
-  </div>
-
-  <p>
-    It is:
-  </p>
-
-  <div class="pull-quote">
-    “Even if something goes wrong, I know how to remain present and continue.”
-  </div>
-
-  <p>
-    A missed note, forgotten lyric, technical problem, or unexpected reaction
-    does not have to determine the entire performance. The audience may not
-    even notice every mistake that feels enormous to the person onstage.
-  </p>
-
-  <p>
-    Confidence allows the performer to stay connected to the music instead of
-    mentally leaving the performance to examine every imperfection.
-  </p>
-
-  <p>
-    The goal is not to convince yourself that mistakes are impossible. The
-    goal is to know that one imperfect moment does not remove your ability to
-    continue.
-  </p>
-
   <div class="split-section image-right">
     <div class="split-copy">
       <h2>Successful People Still Experience Fear</h2>
@@ -758,12 +703,12 @@ export const augustBlogHtml = String.raw`
     <figure class="split-image">
       <img
         class="article-image portrait"
-        src="https://santvisionfilms.site/Images/Topics/Aug_muziktopics/6_artist.webp"
+        src="https://santvisionfilms.site/Images/Topics/Aug_muziktopics/GlamorGirl.webp"
         alt="Musicians continuing a live performance while facing stage fright and mistakes"
         loading="lazy">
 
       <figcaption class="image-caption">
-        A powerful performance can exist at the same time as an inward battle.
+        Successful Recording Artist reveals the battles within are still there.
       </figcaption>
     </figure>
   </div>
@@ -855,6 +800,75 @@ export const augustBlogHtml = String.raw`
   <p>
     Confidence becomes visible through the action that follows the feeling.
   </p>
+
+  <figure class="topic-image">
+    <img
+      class="article-image wide"
+      src="https://santvisionfilms.site/Images/Topics/Aug_muziktopics/OnStage.webp"
+      alt="Thoughts of fear and doubt surrounding a musician performing on stage"
+      loading="lazy">
+
+    <figcaption class="image-caption">
+      A powerful performance can exist at the same time as an inward battle.
+    </figcaption>
+  </figure>
+
+  <h2>Confidence During Live Performance</h2>
+
+  <p>
+    Live performance can bring fear into its most visible form.
+  </p>
+
+  <p>
+    The performer may think:
+  </p>
+
+  <div class="thought-list">
+    <ul>
+      <li>“I do not sound as good as someone else.”</li>
+      <li>“Why am I wasting my time?”</li>
+      <li>“I do not have what it takes.”</li>
+      <li>“Why should I bother?”</li>
+      <li>“I keep making mistakes.”</li>
+      <li>“What if I forget something?”</li>
+      <li>“What if the audience does not respond?”</li>
+    </ul>
+  </div>
+
+  <p>
+    A strong performance mindset is not necessarily:
+  </p>
+
+  <div class="pull-quote">
+    “Nothing will go wrong.”
+  </div>
+
+  <p>
+    It is:
+  </p>
+
+  <div class="pull-quote">
+    “Even if something goes wrong, I know how to remain present and continue.”
+  </div>
+
+  <p>
+    A missed note, forgotten lyric, technical problem, or unexpected reaction
+    does not have to determine the entire performance. The audience may not
+    even notice every mistake that feels enormous to the person onstage.
+  </p>
+
+  <p>
+    Confidence allows the performer to stay connected to the music instead of
+    mentally leaving the performance to examine every imperfection.
+  </p>
+
+  <p>
+    The goal is not to convince yourself that mistakes are impossible. The
+    goal is to know that one imperfect moment does not remove your ability to
+    continue.
+  </p>
+
+
 
   <figure class="topic-image">
     <img
