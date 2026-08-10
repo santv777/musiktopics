@@ -548,6 +548,18 @@ export const augustBlogHtml = String.raw`
     decision.
   </p>
 
+  <figure class="topic-image">
+    <img
+      class="article-image wide"
+      src="https://santvisionfilms.site/Images/Topics/Aug_muziktopics/3_Creative.webp"
+      alt="Musician continuing to create while fearful and doubtful thoughts surround him"
+      loading="lazy">
+
+    <figcaption class="image-caption">
+      Creative confidence gives an unfinished idea enough time to develop.
+    </figcaption>
+  </figure>
+
   <h2>Fear During the Creative Process</h2>
 
   <p>
@@ -590,17 +602,7 @@ export const augustBlogHtml = String.raw`
     process.
   </p>
 
-  <figure class="topic-image">
-    <img
-      class="article-image wide"
-      src="https://santvisionfilms.site/Images/Topics/Aug_muziktopics/3_Creative.webp"
-      alt="Musician continuing to create while fearful and doubtful thoughts surround him"
-      loading="lazy">
 
-    <figcaption class="image-caption">
-      Creative confidence gives an unfinished idea enough time to develop.
-    </figcaption>
-  </figure>
 
   <div class="split-section image-left">
     <figure class="split-image">
