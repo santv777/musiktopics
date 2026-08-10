@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     url: "/",
     images: [
       {
-        url: "https://santvisionfilms.site/Images/Topics/Aug_muziktopics/About_Hero.webp",
+        url: "https://nnmus.b-cdn.net/Images/Topics/Aug_muziktopics/MusikTopics.webp",
         width: 1200,
         height: 630,
         alt: "MusikTopics",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     description:
       "Music-focused articles, creative perspectives, industry developments, culture, technology, and the experiences surrounding creating and sharing music.",
     images: [
-      "https://santvisionfilms.site/Images/Topics/Aug_muziktopics/About_Hero.webp",
+      "https://nnmus.b-cdn.net/Images/Topics/Aug_muziktopics/MusikTopics.webp",
     ],
   },
 
