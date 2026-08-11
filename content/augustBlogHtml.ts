@@ -450,12 +450,18 @@ export const augustBlogHtml = String.raw`
     and inward intimidation.
   </p>
 
-  <p>
-    This article was inspired by the May Musik Topic, which introduced the
-    importance of moving forward instead of allowing uncertainty to stop you.
-    This time, we are going deeper into the challenges that songwriters,
-    musicians, producers, and performers confront daily.
-  </p>
+<p>
+  This article was inspired by the May
+  <a
+    href="https://nonamemusik.com/topics_may"
+    style="color: #005fcc; text-decoration: underline; text-underline-offset: 2px;"
+  >
+    NoNameMusik Topic
+  </a>,
+  which explored the importance of moving forward instead of allowing
+  uncertainty to stop you. This time, we are going deeper into the challenges
+  that songwriters, musicians, producers, and performers confront daily.
+</p>
 
   <p>
     Beginning does not automatically eliminate fear. You have to learn how to
