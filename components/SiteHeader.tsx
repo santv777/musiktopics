@@ -19,8 +19,17 @@ export default function SiteHeader() {
       }}
     >
       <div className="site-header-inner">
-        <Link href="/" className="site-brand" onClick={closeMenu}>
-          MusikTopics
+        <Link
+          href="/"
+          className="site-brand"
+          onClick={closeMenu}
+          aria-label="MusikTopics Home"
+        >
+          <img
+            src="https://santvisionfilms.site/Images/Topics/Aug_muziktopics/siteLogo1.webp"
+            alt="MusikTopics"
+            className="site-logo"
+          />
         </Link>
 
         <button
@@ -65,7 +74,7 @@ export default function SiteHeader() {
         .site-header-inner {
           max-width: 1100px;
           margin: 0 auto;
-          padding: 22px 20px;
+          padding: 14px 20px;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -74,11 +83,18 @@ export default function SiteHeader() {
         }
 
         .site-brand {
-          color: #fff;
+          display: flex;
+          align-items: center;
           text-decoration: none;
-          font-weight: 800;
-          letter-spacing: 0.08em;
-          text-transform: uppercase;
+          flex-shrink: 0;
+        }
+
+        .site-logo {
+          display: block;
+          width: auto;
+          height: 80px;
+          max-width: 280px;
+          object-fit: contain;
         }
 
         .site-nav {
@@ -92,6 +108,10 @@ export default function SiteHeader() {
         .site-nav a {
           color: #fff;
           text-decoration: none;
+        }
+
+        .site-nav a:hover {
+          opacity: 0.78;
         }
 
         .menu-button {
@@ -119,7 +139,7 @@ export default function SiteHeader() {
 
         @media (max-width: 760px) {
           .site-header-inner {
-            padding: 18px 16px;
+            padding: 12px 16px;
             flex-wrap: wrap;
             gap: 0;
             position: relative;
@@ -128,8 +148,12 @@ export default function SiteHeader() {
 
           .site-brand {
             width: auto;
-            text-align: left;
             margin: 0;
+          }
+
+          .site-logo {
+            height: 46px;
+            max-width: 190px;
           }
 
           .menu-button {
