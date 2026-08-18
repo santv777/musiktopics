@@ -424,7 +424,7 @@ export const augustBlogHtml = String.raw`
   <figure class="topic-image">
     <img
       class="article-image wide"
-      src="https://santvisionfilms.site/Images/Topics/Aug_muziktopics/1_Hero_Confident.webp"
+      src="/images/1_Hero_Confident.webp"
       alt="Confidence represented by a confident cat facing fear represented by a mouse"
       loading="eager"
       fetchpriority="high">
